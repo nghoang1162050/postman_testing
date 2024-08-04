@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Automation Test Boilerplate Project</title>
-</head>
-<body>
-
 <h1>Automation Test Boilerplate Project</h1>
 
 <p>This document demonstrates how to run automation tests using a sample boilerplate project. You can maintain and update the source code with any improvements.</p>
@@ -34,6 +26,3 @@
 </ol>
 
 <p>Feel free to update and improve the source code as needed.</p>
-
-</body>
-</html>
