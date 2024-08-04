@@ -1,30 +1,39 @@
-# Automation Test Boilerplate Project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Automation Test Boilerplate Project</title>
+</head>
+<body>
 
-This document demonstrates how to run automation tests using a sample boilerplate project. You can maintain and update the source code with any improvements.
+<h1>Automation Test Boilerplate Project</h1>
 
-## Requirements
+<p>This document demonstrates how to run automation tests using a sample boilerplate project. You can maintain and update the source code with any improvements.</p>
 
-Before you begin, ensure you have the following installed on your machine:
-- [NodeJS](https://nodejs.org/)
-- [Visual Studio Code (VS Code)](https://code.visualstudio.com/) (optional)
-- [Postman](https://www.postman.com/)
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+<h2>Requirements</h2>
 
-## Steps
+<p>Before you begin, ensure you have the following installed on your machine:</p>
+<ul>
+  <li><a href="https://nodejs.org/">NodeJS</a></li>
+  <li><a href="https://code.visualstudio.com/">Visual Studio Code (VS Code)</a> (optional)</li>
+  <li><a href="https://www.postman.com/">Postman</a></li>
+  <li><a href="https://www.docker.com/products/docker-desktop">Docker Desktop</a></li>
+</ul>
 
-Follow these steps to set up and run the automation tests:
+<h2>Steps</h2>
 
-1. **Navigate to the project folder:**
-   ```cmd
-   cd postman_testing
-   ```
-2. **Install node modules:**
-   ```cmd
-   npm install
-   ```
-2. **Run the tests:**
-   ```cmd
-   npm run test
-   ```
+<p>Follow these steps to set up and run the automation tests:</p>
 
-Feel free to update and improve the source code as needed.
+<ol>
+  <li><strong>Navigate to the project folder:</strong></li>
+  <pre><code>cd postman_testing</code></pre>
+  <li><strong>Install node modules:</strong></li>
+  <pre><code>npm install</code></pre>
+  <li><strong>Run the tests:</strong></li>
+  <pre><code>npm run test</code></pre>
+</ol>
+
+<p>Feel free to update and improve the source code as needed.</p>
+
+</body>
+</html>
