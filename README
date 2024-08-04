@@ -1,0 +1,30 @@
+# Automation Test Boilerplate Project
+
+This document demonstrates how to run automation tests using a sample boilerplate project. You can maintain and update the source code with any improvements.
+
+## Requirements
+
+Before you begin, ensure you have the following installed on your machine:
+- [NodeJS](https://nodejs.org/)
+- [Visual Studio Code (VS Code)](https://code.visualstudio.com/) (optional)
+- [Postman](https://www.postman.com/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
+## Steps
+
+Follow these steps to set up and run the automation tests:
+
+1. **Navigate to the project folder:**
+   ```cmd
+   cd postman_testing
+   ```
+2. **Install node modules:**
+   ```cmd
+   npm install
+   ```
+2. **Run the tests:**
+   ```cmd
+   npm run test
+   ```
+
+Feel free to update and improve the source code as needed.
