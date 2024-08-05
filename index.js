@@ -12,7 +12,7 @@ const environment = './postman_json/smart_parking_test.postman_environment.json'
 const currentDate = moment().format('YYYYMMDD');
 const outputDir = `./reports/${currentDate}`;
 const summaryFile = `${outputDir}/summary.xlsx`;
-const testCaseDir = './test_case';
+const testCaseDir = './postman_test_case';
 
 // Create reports directory if not exists
 if (!fs.existsSync(outputDir)) {
