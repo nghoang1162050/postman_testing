@@ -15,6 +15,10 @@ const summaryFile = `${outputDir}/summary.xlsx`;
 const testCaseDir = './postman_test_case';
 
 // Create reports directory if not exists
+if (!fs.existsSync('./reports')) {
+    fs.mkdirSync('./reports');
+}
+
 if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir);
 }
@@ -49,6 +53,18 @@ const generateSummary = (folderSummaries) => {
 
     folderSummaries.forEach(summary => {
         worksheet.addRow(summary);
+    });
+
+    // Apply conditional formatting
+    worksheet.eachRow((row, rowNumber) => {
+        const passedCell = row.getCell('passed');
+        if (passedCell.value === 'No') {
+            passedCell.fill = {
+                type: 'pattern',
+                pattern: 'solid',
+                fgColor: { argb: 'FFFF0000' } // Red color
+            };
+        }
     });
 
     return workbook.xlsx.writeFile(`${summaryFile}`);
