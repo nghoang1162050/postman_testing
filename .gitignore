@@ -1,3 +1,5 @@
 /node_modules
 /package-lock.json
 /reports
+/postman_json
+/test_case

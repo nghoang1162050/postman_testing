@@ -5,8 +5,8 @@ const ExcelJS = require('exceljs');
 const moment = require('moment');
 
 // Correct postman files
-const collectionFile = './smart_parking_testing.postman_collection.json';
-const environment = './smart_parking_test.postman_environment.json';
+const collectionFile = './postman_json/smart_parking_testing.postman_collection.json';
+const environment = './postman_json/smart_parking_test.postman_environment.json';
 
 // default folder
 const currentDate = moment().format('YYYYMMDD');
