@@ -22,8 +22,6 @@ const makeFolders = (parentFolder) => {
         fs.writeFile(`${parentFolder}/${item}.json`, jsonData, (err) => {
             if (err) {
                 console.error(`Error writing file ${item}.json`, err);
-            } else {
-                console.log(`File ${item}.json has been written`);
             }
         });
     });
