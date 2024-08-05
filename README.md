@@ -21,6 +21,7 @@
   <pre><code>cd postman_testing</code></pre>
   <li><strong>Create needed folders:</strong></li>
   <pre><code>mkdir reports, postman_json, postman_test_case</code></pre>
+  <li><strong>Copy needed postman files to folder postman_json.</strong></li>
   <li><strong>Install node modules:</strong></li>
   <pre><code>npm install</code></pre>
   <li><strong>Create empty test case:</strong></li>
