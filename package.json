@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "make_empty_folder": "node make_empty_folder.js"
   },
   "keywords": [],
   "author": "",
