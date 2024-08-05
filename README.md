@@ -23,6 +23,8 @@
   <pre><code>mkdir reports, postman_json, postman_test_case</code></pre>
   <li><strong>Install node modules:</strong></li>
   <pre><code>npm install</code></pre>
+  <li><strong>Create empty test case:</strong></li>
+  <pre><code>npm run make_empty_folder</code></pre>
   <li><strong>Run the tests:</strong></li>
   <pre><code>npm run test</code></pre>
 </ol>
